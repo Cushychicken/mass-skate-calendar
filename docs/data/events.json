@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T17:23:04.860402+00:00",
+  "generated_at": "2026-09-10T17:25:46.681866+00:00",
   "range": {
-    "start": "2026-09-11",
-    "end": "2026-12-10"
+    "start": "2026-09-10",
+    "end": "2026-12-09"
   },
   "sources": [
     {
@@ -13,15 +13,14 @@
     },
     {
       "rink": "Viglirolo Rink",
-      "ok": false,
-      "event_count": 11,
-      "stale": true,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='belmontma.myrec.com', port=443): Read timed out. (read timeout=30)"
+      "ok": true,
+      "event_count": 12,
+      "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 29,
+      "event_count": 30,
       "stale": false
     },
     {
@@ -33,11 +32,59 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 51,
+      "event_count": 53,
       "stale": false
     }
   ],
   "events": [
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-09-10T06:30:00-04:00",
+      "end": "2026-09-10T09:00:00-04:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$10.00 Res, $10.00 Non-Res",
+      "id": "9db5867ce88dcc8a"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-09-10T12:00:00-04:00",
+      "end": "2026-09-10T13:45:00-04:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8856",
+      "id": "aa7ff5a6613431c4"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "stick_puck",
+      "title": "Public Hockey",
+      "start": "2026-09-10T13:00:00-04:00",
+      "end": "2026-09-10T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
+      "id": "91ae690c11a2e13e"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-10T14:00:00-04:00",
+      "end": "2026-09-10T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "53328fcb31886aa9"
+    },
     {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
