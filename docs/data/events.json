@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T16:31:44.055958+00:00",
+  "generated_at": "2026-09-10T16:36:07.081922+00:00",
   "range": {
-    "start": "2026-09-11",
-    "end": "2026-12-10"
+    "start": "2026-09-10",
+    "end": "2026-12-09"
   },
   "sources": [
     {
@@ -20,7 +20,7 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 29,
+      "event_count": 30,
       "stale": false
     },
     {
@@ -42,6 +42,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "9db5867ce88dcc8a"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-09-10T12:00:00-04:00",
+      "end": "2026-09-10T13:45:00-04:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8856",
+      "id": "aa7ff5a6613431c4"
     },
     {
       "rink": "Stoneham Arena",
