@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T17:45:03.077034+00:00",
+  "generated_at": "2026-09-10T19:08:26.960834+00:00",
   "range": {
     "start": "2026-09-10",
     "end": "2026-12-09"
@@ -8,7 +8,7 @@
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 0,
+      "event_count": 42,
       "stale": false
     },
     {
@@ -20,13 +20,13 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 30,
+      "event_count": 29,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": true,
-      "event_count": 0,
+      "event_count": 75,
       "stale": false
     },
     {
@@ -48,18 +48,6 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "9db5867ce88dcc8a"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-09-10T12:00:00-04:00",
-      "end": "2026-09-10T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8856",
-      "id": "aa7ff5a6613431c4"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -194,6 +182,18 @@
       "id": "6dc19d08a59c4065"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-13T14:30:00-04:00",
+      "end": "2026-09-13T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "d9c36e786b955200"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -228,6 +228,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8858",
       "id": "3e4fd79202942b2e"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-14T12:30:00-04:00",
+      "end": "2026-09-14T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "ac1c5187eb1484cd"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -266,6 +278,18 @@
       "id": "0d814aec199dce0d"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-15T12:30:00-04:00",
+      "end": "2026-09-15T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "99b7dda44ab524f3"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -300,6 +324,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8859",
       "id": "2c8efa183de1a202"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-16T12:30:00-04:00",
+      "end": "2026-09-16T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "13809cb6cb69474d"
     },
     {
       "rink": "Viglirolo Rink",
@@ -350,6 +386,18 @@
       "id": "d98aaf70d3b02b50"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-17T12:30:00-04:00",
+      "end": "2026-09-17T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "b8a77345a5263bde"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -384,6 +432,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8861",
       "id": "af682ab374146668"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-18T12:30:00-04:00",
+      "end": "2026-09-18T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "92ebd6b6253f09e2"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -458,6 +518,18 @@
       "id": "bc0d29e9045ce8c2"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-20T14:30:00-04:00",
+      "end": "2026-09-20T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "5153655d1ff0a30a"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -492,6 +564,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8862",
       "id": "4251d2d2266c3b93"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-21T12:30:00-04:00",
+      "end": "2026-09-21T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "1e1534a42f0b9d27"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -530,6 +614,18 @@
       "id": "504805acc7d6d227"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-22T12:30:00-04:00",
+      "end": "2026-09-22T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "2815e152793b273b"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -564,6 +660,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8863",
       "id": "ad75995cbab2c28e"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-23T12:30:00-04:00",
+      "end": "2026-09-23T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "7a825eb99591190b"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -602,6 +710,18 @@
       "id": "bc6458c8614ebd0c"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-24T12:30:00-04:00",
+      "end": "2026-09-24T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "c14defdb32b3c0c8"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -636,6 +756,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8865",
       "id": "07b2a42308ac0f5a"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-25T12:30:00-04:00",
+      "end": "2026-09-25T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "8766dc5b8c018514"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -710,6 +842,18 @@
       "id": "b427a1e01658d138"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-27T14:30:00-04:00",
+      "end": "2026-09-27T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "b7c7ca9162628f52"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -770,6 +914,18 @@
       "id": "130bca39c0789957"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-28T12:30:00-04:00",
+      "end": "2026-09-28T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "966a0fe93b7ec460"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -792,6 +948,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8846",
       "id": "90fbf96a02608c96"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-29T12:30:00-04:00",
+      "end": "2026-09-29T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "a41e8ed894d8e64f"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -830,6 +998,18 @@
       "id": "638fcea6239980dd"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-09-30T12:30:00-04:00",
+      "end": "2026-09-30T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "9177297d768f04d1"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -866,6 +1046,18 @@
       "id": "6bd31582999ea4e8"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-01T12:30:00-04:00",
+      "end": "2026-10-01T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "2af61c964c308309"
+    },
+    {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
       "address": "101 Montvale Ave, Stoneham, MA",
@@ -888,6 +1080,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8869",
       "id": "79542b15d354bef7"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-02T12:30:00-04:00",
+      "end": "2026-10-02T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "74abecdba4a32b54"
     },
     {
       "rink": "Viglirolo Rink",
@@ -938,6 +1142,18 @@
       "id": "4913de67984ddaa8"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-04T14:30:00-04:00",
+      "end": "2026-10-04T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "cff93312ce3f76c5"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -948,6 +1164,66 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "1e467e557a9bef5e"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-05T12:30:00-04:00",
+      "end": "2026-10-05T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "d864f651bbd45e6e"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-06T12:30:00-04:00",
+      "end": "2026-10-06T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "e21864dc344639f1"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-07T12:30:00-04:00",
+      "end": "2026-10-07T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "58048b595d208e9b"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-08T12:30:00-04:00",
+      "end": "2026-10-08T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "58dd928c013341be"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-09T12:30:00-04:00",
+      "end": "2026-10-09T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "6e831ab15d01ea28"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -974,6 +1250,114 @@
       "id": "f0ca2ef4711acc66"
     },
     {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-11T14:30:00-04:00",
+      "end": "2026-10-11T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "1593be2df6fab520"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-12T12:30:00-04:00",
+      "end": "2026-10-12T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "4fb3eccb4ccaf462"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-13T10:00:00-04:00",
+      "end": "2026-10-13T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "606c626c7a6a59ff"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-13T12:30:00-04:00",
+      "end": "2026-10-13T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "d3845a5fff814222"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-14T10:00:00-04:00",
+      "end": "2026-10-14T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "a341a3ae6cef3a50"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-14T12:30:00-04:00",
+      "end": "2026-10-14T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "d7ac21249a265f60"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-15T10:00:00-04:00",
+      "end": "2026-10-15T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "6df1b6916e432a1e"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-15T12:30:00-04:00",
+      "end": "2026-10-15T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "4ffec67060de9124"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-16T12:30:00-04:00",
+      "end": "2026-10-16T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "6555c7cb1401ef85"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -998,6 +1382,18 @@
       "id": "46cbfbbf3e2d0a4b"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-17T19:00:00-04:00",
+      "end": "2026-10-17T21:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "70a2f8b57efce45c"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1008,6 +1404,126 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "67fcda1e4dfa02fe"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-18T14:00:00-04:00",
+      "end": "2026-10-18T16:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "524ea6e97bb5a91b"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-18T14:30:00-04:00",
+      "end": "2026-10-18T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "1c30f5e1e21ce408"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-19T12:30:00-04:00",
+      "end": "2026-10-19T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "608f5c2dbc40c108"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-20T10:00:00-04:00",
+      "end": "2026-10-20T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "e243490ca02e6985"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-20T12:30:00-04:00",
+      "end": "2026-10-20T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "17e7674f44e7cb11"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-21T10:00:00-04:00",
+      "end": "2026-10-21T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "a6158939eb9f4d65"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-21T12:30:00-04:00",
+      "end": "2026-10-21T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "00c52027a97e68ab"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-22T10:00:00-04:00",
+      "end": "2026-10-22T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "d87e4a653c1b1540"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-22T12:30:00-04:00",
+      "end": "2026-10-22T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "d39944557b557845"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-23T12:30:00-04:00",
+      "end": "2026-10-23T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "5ca52b5d7d7937d1"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1034,6 +1550,18 @@
       "id": "5dccf71406a09526"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-24T19:00:00-04:00",
+      "end": "2026-10-24T21:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "a7dbadc6dad4325c"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1044,6 +1572,126 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "f06bc46989b409b8"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-25T14:00:00-04:00",
+      "end": "2026-10-25T16:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "5cc6fc0c42cbb07c"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-25T14:30:00-04:00",
+      "end": "2026-10-25T16:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "e71be053e3e19118"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-26T12:30:00-04:00",
+      "end": "2026-10-26T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "32a3828f38a7392d"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-27T10:00:00-04:00",
+      "end": "2026-10-27T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "3a7d706470864084"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-27T12:30:00-04:00",
+      "end": "2026-10-27T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "cc5813b35dcc53a6"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-28T10:00:00-04:00",
+      "end": "2026-10-28T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "8fe764a73af41548"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-28T12:30:00-04:00",
+      "end": "2026-10-28T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "d11d7446668d4a31"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-29T10:00:00-04:00",
+      "end": "2026-10-29T13:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "62b810a730f7809a"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-29T12:30:00-04:00",
+      "end": "2026-10-29T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "941dda43e7621072"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-10-30T12:30:00-04:00",
+      "end": "2026-10-30T14:30:00-04:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "50a4904592165798"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1058,6 +1706,30 @@
       "id": "7192aa4b6e61c6b1"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-10-31T19:00:00-04:00",
+      "end": "2026-10-31T21:00:00-04:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "753eb63061b265bd"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-01T14:00:00-05:00",
+      "end": "2026-11-01T16:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "c6ec135d2a527974"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1068,6 +1740,114 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "a1da9bc3e9b7b4e4"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-01T14:30:00-05:00",
+      "end": "2026-11-01T16:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "3060134b08fb2b52"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-02T12:30:00-05:00",
+      "end": "2026-11-02T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "034aac9453c4ee1a"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-03T10:00:00-05:00",
+      "end": "2026-11-03T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "45ee6e5c5bfb21c9"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-03T12:30:00-05:00",
+      "end": "2026-11-03T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "2341c35ab772ad74"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-04T10:00:00-05:00",
+      "end": "2026-11-04T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "6f0c1c2e5756c141"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-04T12:30:00-05:00",
+      "end": "2026-11-04T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "1741ae6a7f02ddb7"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-05T10:00:00-05:00",
+      "end": "2026-11-05T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "492a8982ce876e94"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-05T12:30:00-05:00",
+      "end": "2026-11-05T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "efc6b399598b6b39"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-06T12:30:00-05:00",
+      "end": "2026-11-06T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "8a1c6649eb4bb5c0"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1082,6 +1862,18 @@
       "id": "3bfbde9f0b5d81b7"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-07T19:00:00-05:00",
+      "end": "2026-11-07T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "522e76fb7c8ce178"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1092,6 +1884,126 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "2722591ce35e7b39"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-08T14:00:00-05:00",
+      "end": "2026-11-08T16:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "31f8f55ca112e64f"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-08T14:30:00-05:00",
+      "end": "2026-11-08T16:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "6d5a356ba3f9d494"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-09T12:30:00-05:00",
+      "end": "2026-11-09T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "6338014200565d64"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-10T10:00:00-05:00",
+      "end": "2026-11-10T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "7aeb392d2f191833"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-10T12:30:00-05:00",
+      "end": "2026-11-10T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "be8f80050a0f300a"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-11T10:00:00-05:00",
+      "end": "2026-11-11T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "61b8aef14307c1e1"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-11T12:30:00-05:00",
+      "end": "2026-11-11T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "fed161aa0e9549ac"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-12T10:00:00-05:00",
+      "end": "2026-11-12T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "4533fdb44d70cf31"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-12T12:30:00-05:00",
+      "end": "2026-11-12T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "eb8dfdbed7103677"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-13T12:30:00-05:00",
+      "end": "2026-11-13T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "523a5ca12fb5733f"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1106,6 +2018,18 @@
       "id": "782ac650da0c8de4"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-14T19:00:00-05:00",
+      "end": "2026-11-14T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "7827c6d0d40bcfbd"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1116,6 +2040,126 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "a36f4b82c845348c"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-15T14:00:00-05:00",
+      "end": "2026-11-15T16:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "09079cedbc0f9dba"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-15T14:30:00-05:00",
+      "end": "2026-11-15T16:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "3486e5347098c546"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-16T12:30:00-05:00",
+      "end": "2026-11-16T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "cf219a2dadac29eb"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-17T10:00:00-05:00",
+      "end": "2026-11-17T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "2850988e489022f9"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-17T12:30:00-05:00",
+      "end": "2026-11-17T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "a333ed2da2536334"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-18T10:00:00-05:00",
+      "end": "2026-11-18T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "90485d31d01112ec"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-18T12:30:00-05:00",
+      "end": "2026-11-18T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "ed0b42dbf0a2dd6d"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-19T10:00:00-05:00",
+      "end": "2026-11-19T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "e4cea2ddfbd5fb6f"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-19T12:30:00-05:00",
+      "end": "2026-11-19T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "1bfddbe72c09f622"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-20T12:30:00-05:00",
+      "end": "2026-11-20T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "ded78a06d44034fd"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1130,6 +2174,126 @@
       "id": "4bf067a3ea70b05b"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-21T19:00:00-05:00",
+      "end": "2026-11-21T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "fe17596e3622a51e"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-22T14:00:00-05:00",
+      "end": "2026-11-22T16:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "0e40558aa6097596"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-22T14:30:00-05:00",
+      "end": "2026-11-22T16:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "a2df3e7ace2c3e6d"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-23T12:30:00-05:00",
+      "end": "2026-11-23T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "b90a1a46e7d054c9"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-24T10:00:00-05:00",
+      "end": "2026-11-24T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "b221643d10afe652"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-24T12:30:00-05:00",
+      "end": "2026-11-24T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "802e681936230b72"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-25T10:00:00-05:00",
+      "end": "2026-11-25T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "507c8641e872f4a0"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-25T12:30:00-05:00",
+      "end": "2026-11-25T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "82ad070321ea5a59"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-26T10:00:00-05:00",
+      "end": "2026-11-26T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "48861dea15527366"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-27T12:30:00-05:00",
+      "end": "2026-11-27T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "89507c8e9bc67ae6"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1142,6 +2306,18 @@
       "id": "49459d9ced0b3133"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-28T19:00:00-05:00",
+      "end": "2026-11-28T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "809742de1d791f2e"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1152,6 +2328,126 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "a6c01030b3cad25e"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-11-29T14:00:00-05:00",
+      "end": "2026-11-29T16:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "8332d91fd524f1ec"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-29T14:30:00-05:00",
+      "end": "2026-11-29T16:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "3f75702362871703"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-11-30T12:30:00-05:00",
+      "end": "2026-11-30T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "89c3541ec40a6c85"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-01T10:00:00-05:00",
+      "end": "2026-12-01T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "b0716827e5215be1"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-01T12:30:00-05:00",
+      "end": "2026-12-01T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "4d35121ce02d5ea1"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-02T10:00:00-05:00",
+      "end": "2026-12-02T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "9cf47a92f2edf4dc"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-02T12:30:00-05:00",
+      "end": "2026-12-02T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "63df5643dc9ed563"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-03T10:00:00-05:00",
+      "end": "2026-12-03T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "5f141a572b551688"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-03T12:30:00-05:00",
+      "end": "2026-12-03T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "5957919ed8e4732d"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-04T12:30:00-05:00",
+      "end": "2026-12-04T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "acc4d67e316d83a1"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1178,6 +2474,18 @@
       "id": "fd5f1e2d62b51f28"
     },
     {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-05T19:00:00-05:00",
+      "end": "2026-12-05T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "07b8a618a594d22e"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1188,6 +2496,90 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "efea919df60d8ab1"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-06T14:00:00-05:00",
+      "end": "2026-12-06T16:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "5a7f47a03dbffa71"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-06T14:30:00-05:00",
+      "end": "2026-12-06T16:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "e819ad15bc1bae70"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-07T12:30:00-05:00",
+      "end": "2026-12-07T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "c1d35b8daba20923"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-08T10:00:00-05:00",
+      "end": "2026-12-08T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "c34c7c88b400add5"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-08T12:30:00-05:00",
+      "end": "2026-12-08T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "b7eead0825af07cc"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-09T10:00:00-05:00",
+      "end": "2026-12-09T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "b37d956168d5cefe"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-09T12:30:00-05:00",
+      "end": "2026-12-09T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "5877e89bfbc014e6"
     }
   ]
 }
