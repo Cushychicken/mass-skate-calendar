@@ -1,0 +1,2 @@
+"""Local rink schedule scrapers."""
+
