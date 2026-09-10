@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Public skating and stick-and-puck times around Medford, Massachusetts.">
+  <title>Local Ice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div>
+      <p class="eyebrow">GREATER BOSTON · PUBLIC ICE</p>
+      <h1>Local Ice</h1>
+    </div>
+    <p id="freshness" class="freshness">Loading schedule…</p>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Schedule filters">
+      <div class="segmented" role="group" aria-label="Activity type">
+        <button class="active" data-kind="all">All ice</button>
+        <button data-kind="public_skate">Public skate</button>
+        <button data-kind="stick_puck">Stick + puck</button>
+      </div>
+      <label class="rink-select">Rink
+        <select id="rink-filter"><option value="all">All rinks</option></select>
+      </label>
+      <button id="download-ics" class="calendar-button">Add visible events to calendar</button>
+    </section>
+
+    <aside id="source-warning" class="warning" hidden></aside>
+    <section id="schedule" class="schedule" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    Schedules change. Confirm with the rink before leaving.
+    <a href="https://github.com/Cushychicken/mass-skate-calendar">Source</a>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
