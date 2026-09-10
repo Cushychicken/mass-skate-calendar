@@ -5,14 +5,20 @@ import os
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from scraper.sources import ICalendarSource, MyRecCalendarSource, MyRecProgramSource
+from scraper.sources import HalixCalendarSource, ICalendarSource, MyRecCalendarSource, MyRecProgramSource
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs" / "data" / "events.json"
-CRONIN_FEED = "https://calendars.halix.io/event/publish/Yml6fjAwfi13Y0FBQUFBQUFBfkFRQS1idXNpbmVzcy1iaXp-MDB-LXdjQUFBQUFBQUF-QVFBLWJvb2tpbmc=?signature=BjJ9YDF6NzTm4PE9u5rK6g8aGKhE-_mXBDLM_nTSDgT8e8-35LH2rEt7s-ki6s9zyQoUeyFD9WdsSlK5bDgszup3OZ-V1JONS_fff6tKU_ep1mhmlQPUbc6wGHlMcq6-fGOddC2s-pVfX_9ICs2tSllWsbMvIJIpwHkImIm_bQ0="
 
 SOURCES = [
-    MyRecCalendarSource(name="LoConte Rink", city="Medford", address="97 Locust St, Medford, MA", url="https://medfordma.myrec.com/info/calendar/mobile.aspx?AreaID=14782&FacilityID=14780", location_value="14780,14782"),
+    MyRecCalendarSource(
+        name="LoConte Rink",
+        city="Medford",
+        address="97 Locust St, Medford, MA",
+        url="https://medfordma.myrec.com/info/calendar/mobile.aspx?FacilityID=14780&AreaID=0",
+        location_value="14780,0",
+        page_url="https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+    ),
     MyRecProgramSource(name="Viglirolo Rink", city="Belmont", address="10 Concord Ave, Belmont, MA", urls=["https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231", "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877"]),
     ICalendarSource(
         name="Stoneham Arena",
@@ -22,7 +28,17 @@ SOURCES = [
         page_url="https://www.stoneham-ma.gov/calendar.aspx?CID=26",
         headers={"User-Agent": "Mozilla/5.0 (compatible; MassSkateCalendar/1.0)"},
     ),
-    ICalendarSource(name="Cronin Rink", city="Revere", address="870 Revere Beach Pkwy, Revere, MA", feed_url=CRONIN_FEED, page_url="https://fmc.myhalix.io/pages/publicskatingcalendars.revere"),
+    HalixCalendarSource(
+        name="Cronin Rink",
+        city="Revere",
+        address="870 Revere Beach Pkwy, Revere, MA",
+        base_url="https://fmc.myhalix.io",
+        page_url="https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+        sandbox_key="sbx~00~300",
+        scope_element_id="business",
+        scope_key="biz~00~-wcAAAAAAAA~AQA",
+        resource_key="sre~fc~fmcns~10ice",
+    ),
 ]
 
 

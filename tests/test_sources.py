@@ -1,6 +1,6 @@
 from datetime import date
 
-from scraper.sources import CivicPlusSource, FinnlySource, MyRecCalendarSource
+from scraper.sources import CivicPlusSource, FinnlySource, HalixCalendarSource, MyRecCalendarSource
 
 
 def test_myrec_calendar_parser():
@@ -26,3 +26,33 @@ def test_finnly_parser():
     source = FinnlySource(name="Warrior", city="Boston", address="90 Guest", url="https://example.com")
     events = source.parse(html, date(2026, 9, 1), date(2026, 9, 30))
     assert [event.kind for event in events] == ["public_skate", "stick_puck"]
+
+
+def test_halix_calendar_parser():
+    payload = {
+        "dayInfo": [
+            {
+                "date": "2026-09-13",
+                "eventInfo": [
+                    {"eventName": "FMC Ice Sports - Public Skating", "startTime": "14:30", "endTime": "16:30"},
+                    {"eventName": "Stick and Puck", "startTime": "20:00", "endTime": "21:00"},
+                    {"eventName": "Private rental", "startTime": "21:00", "endTime": "22:00"},
+                ],
+            }
+        ]
+    }
+    source = HalixCalendarSource(
+        name="Cronin Rink",
+        city="Revere",
+        address="870 Revere Beach Pkwy",
+        base_url="https://example.com",
+        page_url="https://example.com/calendar",
+        sandbox_key="sandbox",
+        scope_element_id="business",
+        scope_key="business-key",
+        resource_key="revere-ice",
+    )
+    events = source.parse(payload, date(2026, 9, 1), date(2026, 9, 30))
+    assert [event.kind for event in events] == ["public_skate", "stick_puck"]
+    assert events[0].start.hour == 14
+    assert events[0].end.hour == 16

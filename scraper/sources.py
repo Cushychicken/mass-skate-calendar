@@ -67,9 +67,10 @@ def parse_local_range(day: date, text: str) -> tuple[datetime, datetime]:
 
 
 class MyRecCalendarSource:
-    def __init__(self, *, name: str, city: str, address: str, url: str, location_value: str):
+    def __init__(self, *, name: str, city: str, address: str, url: str, location_value: str, page_url: str | None = None):
         self.name, self.city, self.address = name, city, address
         self.url, self.location_value = url, location_value
+        self.page_url = page_url or url
 
     def fetch(self, start: date, end: date) -> list[Event]:
         session = requests.Session()
@@ -82,7 +83,7 @@ class MyRecCalendarSource:
         }
         form.update(
             {
-                "ctl00$Content$ddlLocation": self.location_value,
+                "ctl00$Content$lstFacilityID": self.location_value,
                 "ctl00$Content$txtStartDate": start.strftime("%m/%d/%Y"),
                 "ctl00$Content$txtEndDate": end.strftime("%m/%d/%Y"),
                 "ctl00$Content$btnSubmit": "Go",
@@ -113,7 +114,87 @@ class MyRecCalendarSource:
                 if not kind or not TIME_RANGE.search(time_text):
                     continue
                 event_start, event_end = parse_local_range(day, time_text)
-                events.append(Event(self.name, self.city, self.address, kind, title, event_start, event_end, self.url))
+                events.append(Event(self.name, self.city, self.address, kind, title, event_start, event_end, self.page_url))
+        return events
+
+
+class HalixCalendarSource:
+    def __init__(
+        self,
+        *,
+        name: str,
+        city: str,
+        address: str,
+        base_url: str,
+        page_url: str,
+        sandbox_key: str,
+        scope_element_id: str,
+        scope_key: str,
+        resource_key: str,
+    ):
+        self.name, self.city, self.address = name, city, address
+        self.base_url, self.page_url = base_url.rstrip("/"), page_url
+        self.sandbox_key, self.scope_element_id = sandbox_key, scope_element_id
+        self.scope_key, self.resource_key = scope_key, resource_key
+
+    def fetch(self, start: date, end: date) -> list[Event]:
+        url = (
+            f"{self.base_url}/event/sandboxes/{self.sandbox_key}/scope/"
+            f"{self.scope_element_id}/{self.scope_key}/publicEvents"
+        )
+        payload = {
+            "calendarConfigKeys": None,
+            "eventTypes": ["booking"],
+            "contextKey": self.scope_key,
+            "secondaryContextKey": "",
+            "filters": [{"eventType": "booking", "filterValues": [self.resource_key]}],
+        }
+        response = requests.post(
+            url,
+            params={"startDate": start.isoformat(), "endDate": end.isoformat()},
+            json=payload,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; MassSkateCalendar/1.0)"},
+            timeout=30,
+        )
+        response.raise_for_status()
+        return self.parse(response.json(), start, end)
+
+    def parse(self, payload: dict, start: date, end: date) -> list[Event]:
+        events: list[Event] = []
+        for day_info in payload.get("dayInfo", []):
+            try:
+                day = date.fromisoformat(day_info["date"])
+            except (KeyError, TypeError, ValueError):
+                continue
+            if not start <= day <= end:
+                continue
+            for item in day_info.get("eventInfo", []):
+                title = str(item.get("eventName", "")).strip()
+                kind = classify(title)
+                if not kind:
+                    continue
+                try:
+                    start_time = time.fromisoformat(item["startTime"])
+                    end_time = time.fromisoformat(item["endTime"])
+                except (KeyError, TypeError, ValueError):
+                    continue
+                event_start = datetime.combine(day, start_time, TZ)
+                event_end = datetime.combine(day, end_time, TZ)
+                if event_end <= event_start:
+                    event_end += timedelta(days=1)
+                events.append(
+                    Event(
+                        self.name,
+                        self.city,
+                        self.address,
+                        kind,
+                        title,
+                        event_start,
+                        event_end,
+                        self.page_url,
+                        str(item.get("eventDescription", "")).strip(),
+                    )
+                )
         return events
 
 
