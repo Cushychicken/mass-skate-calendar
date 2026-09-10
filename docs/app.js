@@ -29,7 +29,7 @@ function render() {
     const day = new Date(items[0].start);
     const cards = items.map(event => `<a class="event" href="${escapeHtml(event.source_url)}" target="_blank" rel="noopener">
       <div class="time">${fmtTime.format(new Date(event.start))}–${fmtTime.format(new Date(event.end))}</div>
-      <div><h3>${escapeHtml(event.rink)}</h3><div class="meta">${escapeHtml(event.city)}${event.notes ? ` · ${escapeHtml(event.notes)}` : ""}</div></div>
+      <h3>${escapeHtml(event.rink)}</h3>
       <span class="badge ${event.kind}">${event.kind === "public_skate" ? "Public skate" : "Stick + puck"}</span>
     </a>`).join("");
     return `<section class="day"><h2>${fmtDay.format(day)}</h2><div class="event-list">${cards}</div></section>`;

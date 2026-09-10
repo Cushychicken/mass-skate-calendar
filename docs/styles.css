@@ -31,11 +31,10 @@ select { padding: 0 36px 0 12px; }
 .day:first-child { border-top: 0; }
 .day h2 { position: sticky; top: 98px; align-self: start; margin: 0; font-size: 1rem; font-weight: 600; color: var(--muted); }
 .event-list { display: grid; gap: 10px; }
-.event { display: grid; grid-template-columns: 118px 1fr auto; gap: 16px; align-items: center; padding: 17px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: inherit; text-decoration: none; }
+.event { display: grid; grid-template-columns: 118px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: inherit; text-decoration: none; }
 .event:hover { border-color: #376482; transform: translateY(-1px); }
 .time { font-variant-numeric: tabular-nums; font-weight: 750; }
-.event h3 { margin: 0 0 3px; font-size: 1.03rem; }
-.meta { color: var(--muted); font-size: .88rem; }
+.event h3 { margin: 0; overflow: hidden; font-size: 1.03rem; text-overflow: ellipsis; white-space: nowrap; }
 .badge { padding: 5px 8px; border-radius: 999px; font-size: .76rem; font-weight: 750; white-space: nowrap; }
 .badge.public_skate { background: #123649; color: var(--ice); }
 .badge.stick_puck { background: #3a3017; color: var(--puck); }
@@ -57,4 +56,3 @@ a { color: var(--ice); }
   .time { grid-column: 1 / -1; }
   footer { flex-direction: column; }
 }
-
