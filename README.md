@@ -6,6 +6,7 @@ Sources currently include:
 
 - LoConte Rink, Medford
 - Viglirolo Rink / Belmont Sports Complex, Belmont
+- Warrior Ice Arena, Boston
 - Stoneham Arena, Stoneham
 - Cronin Rink, Revere
 
@@ -19,7 +20,7 @@ The scheduled GitHub Action runs the Python scrapers every morning, writes norma
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m scraper.run
+python -m scraper.daily
 python -m http.server --directory docs 8000
 ```
 

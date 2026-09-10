@@ -32,7 +32,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Scrape schedules
-        run: python -m scraper.run
+        run: python -m scraper.daily
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

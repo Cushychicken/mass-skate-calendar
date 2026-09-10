@@ -1,6 +1,6 @@
 from datetime import date
 
-from scraper.sources import CivicPlusSource, MyRecCalendarSource
+from scraper.sources import CivicPlusSource, FinnlySource, MyRecCalendarSource
 
 
 def test_myrec_calendar_parser():
@@ -20,3 +20,9 @@ def test_civicplus_parser():
     assert events[0].kind == "stick_puck"
     assert events[0].end.hour == 13
 
+
+def test_finnly_parser():
+    html = '''<script>_onlineScheduleList = [{"EventStartTime":"2026-09-12T12:30:00","EventEndTime":"2026-09-12T13:50:00","EventTypeName":"Public Skating","Description":"Weekend session","Closed":false},{"EventStartTime":"2026-09-13T08:30:00","EventEndTime":"2026-09-13T09:20:00","EventTypeName":"Public Hockey","Description":"Drop-in","Closed":false}];</script>'''
+    source = FinnlySource(name="Warrior", city="Boston", address="90 Guest", url="https://example.com")
+    events = source.parse(html, date(2026, 9, 1), date(2026, 9, 30))
+    assert [event.kind for event in events] == ["public_skate", "stick_puck"]

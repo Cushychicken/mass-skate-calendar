@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 from dataclasses import asdict, dataclass
 from datetime import date, datetime, time, timedelta
@@ -142,6 +143,37 @@ class MyRecProgramSource:
                 fees = row.select_one('td[data-title="Fees"]')
                 notes = fees.get_text(" ", strip=True) if fees else ""
                 events.append(Event(self.name, self.city, self.address, kind, title, event_start, event_end, url, notes))
+        return events
+
+
+class FinnlySource:
+    def __init__(self, *, name: str, city: str, address: str, url: str):
+        self.name, self.city, self.address, self.url = name, city, address, url
+
+    def fetch(self, start: date, end: date) -> list[Event]:
+        response = requests.get(
+            self.url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; MassSkateCalendar/1.0)"},
+            timeout=30,
+        )
+        response.raise_for_status()
+        return self.parse(response.text, start, end)
+
+    def parse(self, html: str, start: date, end: date) -> list[Event]:
+        match = re.search(r"_onlineScheduleList\s*=\s*(\[.*?\]);", html, re.S)
+        if not match:
+            raise ValueError("Finnly schedule data was not found")
+        events: list[Event] = []
+        for item in json.loads(match.group(1)):
+            title = str(item.get("EventTypeName", "")).strip()
+            kind = classify(title)
+            if not kind or item.get("Closed"):
+                continue
+            event_start = localize(datetime.fromisoformat(item["EventStartTime"]))
+            event_end = localize(datetime.fromisoformat(item["EventEndTime"]))
+            if start <= event_start.date() <= end:
+                notes = str(item.get("Description", "")).strip()
+                events.append(Event(self.name, self.city, self.address, kind, title, event_start, event_end, self.url, notes))
         return events
 
 

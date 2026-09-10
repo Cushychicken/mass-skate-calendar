@@ -4,6 +4,15 @@ const schedule = document.querySelector("#schedule");
 const fmtTime = new Intl.DateTimeFormat("en-US", { hour: "numeric", minute: "2-digit" });
 const fmtDay = new Intl.DateTimeFormat("en-US", { weekday: "short", month: "short", day: "numeric" });
 
+function fmtRange(startValue, endValue) {
+  let start = fmtTime.format(new Date(startValue));
+  const end = fmtTime.format(new Date(endValue));
+  const startPeriod = start.match(/ (AM|PM)$/)?.[1];
+  const endPeriod = end.match(/ (AM|PM)$/)?.[1];
+  if (startPeriod === endPeriod) start = start.replace(/ (AM|PM)$/, "");
+  return `${start}–${end}`;
+}
+
 function escapeHtml(value = "") {
   return value.replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
 }
@@ -28,7 +37,7 @@ function render() {
   schedule.innerHTML = [...days.values()].map(items => {
     const day = new Date(items[0].start);
     const cards = items.map(event => `<a class="event" href="${escapeHtml(event.source_url)}" target="_blank" rel="noopener">
-      <div class="time">${fmtTime.format(new Date(event.start))}–${fmtTime.format(new Date(event.end))}</div>
+      <div class="time">${fmtRange(event.start, event.end)}</div>
       <h3>${escapeHtml(event.rink)}</h3>
       <span class="badge ${event.kind}">${event.kind === "public_skate" ? "Public skate" : "Stick + puck"}</span>
     </a>`).join("");
@@ -55,7 +64,7 @@ fetch("data/events.json", { cache: "no-store" }).then(response => {
 }).then(payload => {
   state.payload = payload;
   const rinkFilter = document.querySelector("#rink-filter");
-  [...new Set(payload.events.map(event => event.rink))].sort().forEach(rink => rinkFilter.add(new Option(rink, rink)));
+  [...new Set(payload.sources.map(source => source.rink))].sort().forEach(rink => rinkFilter.add(new Option(rink, rink)));
   const generated = payload.generated_at ? new Date(payload.generated_at) : null;
   document.querySelector("#freshness").textContent = generated ? `Updated ${generated.toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}` : "Awaiting first scrape";
   const failures = payload.sources.filter(source => !source.ok);

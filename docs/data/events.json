@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T17:06:50.943771+00:00",
+  "generated_at": "2026-09-10T17:23:04.860402+00:00",
   "range": {
-    "start": "2026-09-10",
-    "end": "2026-12-09"
+    "start": "2026-09-11",
+    "end": "2026-12-10"
   },
   "sources": [
     {
@@ -13,14 +13,15 @@
     },
     {
       "rink": "Viglirolo Rink",
-      "ok": true,
-      "event_count": 12,
-      "stale": false
+      "ok": false,
+      "event_count": 11,
+      "stale": true,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='belmontma.myrec.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 30,
+      "event_count": 29,
       "stale": false
     },
     {
@@ -28,33 +29,15 @@
       "ok": true,
       "event_count": 0,
       "stale": false
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "ok": true,
+      "event_count": 51,
+      "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-09-10T06:30:00-04:00",
-      "end": "2026-09-10T09:00:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "9db5867ce88dcc8a"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-09-10T12:00:00-04:00",
-      "end": "2026-09-10T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8856",
-      "id": "aa7ff5a6613431c4"
-    },
     {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
@@ -80,6 +63,30 @@
       "id": "fdc9eddb579a4e92"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-11T14:00:00-04:00",
+      "end": "2026-09-11T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "a1530f3e3fef3141"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-11T21:00:00-04:00",
+      "end": "2026-09-11T21:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "a167989d14eb15f0"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -90,6 +97,42 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "27a3646f236eefef"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-12T12:30:00-04:00",
+      "end": "2026-09-12T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "8b4bb0921a2cdeaf"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "stick_puck",
+      "title": "Public Hockey",
+      "start": "2026-09-13T08:30:00-04:00",
+      "end": "2026-09-13T09:20:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekend Public Hockey",
+      "id": "8280db093ad4ffaf"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-13T11:30:00-04:00",
+      "end": "2026-09-13T12:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "6dc19d08a59c4065"
     },
     {
       "rink": "Viglirolo Rink",
@@ -128,6 +171,30 @@
       "id": "3e4fd79202942b2e"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "stick_puck",
+      "title": "Public Hockey",
+      "start": "2026-09-14T13:00:00-04:00",
+      "end": "2026-09-14T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
+      "id": "9bac2cded80b3374"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-14T14:00:00-04:00",
+      "end": "2026-09-14T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "41d3118cd4aa31c7"
+    },
+    {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
       "address": "101 Montvale Ave, Stoneham, MA",
@@ -138,6 +205,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8836",
       "id": "0d814aec199dce0d"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-15T15:00:00-04:00",
+      "end": "2026-09-15T15:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "2173747819ba4f8b"
     },
     {
       "rink": "Stoneham Arena",
@@ -176,6 +255,18 @@
       "id": "19713fe0c0d671e7"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-16T14:00:00-04:00",
+      "end": "2026-09-16T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "e1e168529018b2ee"
+    },
+    {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
       "address": "101 Montvale Ave, Stoneham, MA",
@@ -198,6 +289,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8860",
       "id": "d98aaf70d3b02b50"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-17T14:00:00-04:00",
+      "end": "2026-09-17T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "e210f73d394c5012"
     },
     {
       "rink": "Stoneham Arena",
@@ -224,6 +327,18 @@
       "id": "af682ab374146668"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-18T14:00:00-04:00",
+      "end": "2026-09-18T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "1fc4bea969d3e616"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -236,6 +351,30 @@
       "id": "3cc20b8469be0177"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-18T21:00:00-04:00",
+      "end": "2026-09-18T21:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "46ad73660605fb8a"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-19T13:10:00-04:00",
+      "end": "2026-09-19T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "04433daa249eaac9"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -246,6 +385,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "4a63401a16b10a3d"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-20T13:00:00-04:00",
+      "end": "2026-09-20T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "bc0d29e9045ce8c2"
     },
     {
       "rink": "Viglirolo Rink",
@@ -284,6 +435,30 @@
       "id": "4251d2d2266c3b93"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "stick_puck",
+      "title": "Public Hockey",
+      "start": "2026-09-21T13:00:00-04:00",
+      "end": "2026-09-21T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
+      "id": "2bf54f7fd9ab3ec0"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-21T14:00:00-04:00",
+      "end": "2026-09-21T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "1e9b64da41a8cb3f"
+    },
+    {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
       "address": "101 Montvale Ave, Stoneham, MA",
@@ -294,6 +469,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8841",
       "id": "504805acc7d6d227"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-22T15:00:00-04:00",
+      "end": "2026-09-22T15:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "1f01c2993317380f"
     },
     {
       "rink": "Stoneham Arena",
@@ -320,6 +507,18 @@
       "id": "ad75995cbab2c28e"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-23T13:00:00-04:00",
+      "end": "2026-09-23T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 -  Weekday Public Skating",
+      "id": "01f52643ac0c6d9f"
+    },
+    {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
       "address": "101 Montvale Ave, Stoneham, MA",
@@ -342,6 +541,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8864",
       "id": "bc6458c8614ebd0c"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-24T14:00:00-04:00",
+      "end": "2026-09-24T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "1a701cb63cb1ca77"
     },
     {
       "rink": "Stoneham Arena",
@@ -368,6 +579,18 @@
       "id": "07b2a42308ac0f5a"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-25T14:00:00-04:00",
+      "end": "2026-09-25T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "677c80dc9d2eaa6c"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -378,6 +601,30 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "aca79511896d55fa"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-25T21:00:00-04:00",
+      "end": "2026-09-25T21:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "1775d7321d0db245"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-26T12:00:00-04:00",
+      "end": "2026-09-26T13:20:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "672bba1117acef02"
     },
     {
       "rink": "Viglirolo Rink",
@@ -392,6 +639,18 @@
       "id": "e381214284eff33b"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-27T13:00:00-04:00",
+      "end": "2026-09-27T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "b427a1e01658d138"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -402,6 +661,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "cd2e5a15e1800311"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-28T08:00:00-04:00",
+      "end": "2026-09-28T08:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "e5be77a5d6b12817"
     },
     {
       "rink": "Stoneham Arena",
@@ -428,6 +699,30 @@
       "id": "00e8e7c3b3dead6d"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "stick_puck",
+      "title": "Public Hockey",
+      "start": "2026-09-28T12:00:00-04:00",
+      "end": "2026-09-28T12:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
+      "id": "130bca39c0789957"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-28T14:00:00-04:00",
+      "end": "2026-09-28T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "f721c3d532cc69db"
+    },
+    {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
       "address": "101 Montvale Ave, Stoneham, MA",
@@ -438,6 +733,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8846",
       "id": "90fbf96a02608c96"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-29T15:00:00-04:00",
+      "end": "2026-09-29T15:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "f7be05ec41f519ad"
     },
     {
       "rink": "Stoneham Arena",
@@ -462,6 +769,18 @@
       "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
       "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8867",
       "id": "638fcea6239980dd"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-09-30T14:00:00-04:00",
+      "end": "2026-09-30T14:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 -  Weekday Public Skating",
+      "id": "b57691b74e847465"
     },
     {
       "rink": "Stoneham Arena",
@@ -524,6 +843,42 @@
       "id": "6e9caf9c9a80d3e8"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-02T21:00:00-04:00",
+      "end": "2026-10-02T21:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "f9e8cf248a0cabeb"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-03T16:30:00-04:00",
+      "end": "2026-10-03T17:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "e185fa48d3165e2f"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-04T12:30:00-04:00",
+      "end": "2026-10-04T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "4913de67984ddaa8"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -534,6 +889,246 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
       "id": "1e467e557a9bef5e"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-10T12:30:00-04:00",
+      "end": "2026-10-10T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "76fb025b196462ff"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-11T13:00:00-04:00",
+      "end": "2026-10-11T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "f0ca2ef4711acc66"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-16T21:00:00-04:00",
+      "end": "2026-10-16T21:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "76b0fa79dcba072c"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-17T12:30:00-04:00",
+      "end": "2026-10-17T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "46cbfbbf3e2d0a4b"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-18T12:30:00-04:00",
+      "end": "2026-10-18T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "67fcda1e4dfa02fe"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-23T21:00:00-04:00",
+      "end": "2026-10-23T21:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "ee46636fff0d141c"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-24T18:00:00-04:00",
+      "end": "2026-10-24T18:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "5dccf71406a09526"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-25T13:00:00-04:00",
+      "end": "2026-10-25T13:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "f06bc46989b409b8"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-10-31T10:30:00-04:00",
+      "end": "2026-10-31T11:50:00-04:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "7192aa4b6e61c6b1"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-01T14:00:00-05:00",
+      "end": "2026-11-01T14:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "a1da9bc3e9b7b4e4"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-07T17:00:00-05:00",
+      "end": "2026-11-07T17:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "3bfbde9f0b5d81b7"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-08T12:30:00-05:00",
+      "end": "2026-11-08T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "2722591ce35e7b39"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-14T12:30:00-05:00",
+      "end": "2026-11-14T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "782ac650da0c8de4"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-15T13:00:00-05:00",
+      "end": "2026-11-15T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "a36f4b82c845348c"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-21T12:30:00-05:00",
+      "end": "2026-11-21T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "4bf067a3ea70b05b"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-28T17:00:00-05:00",
+      "end": "2026-11-28T17:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "49459d9ced0b3133"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-29T12:30:00-05:00",
+      "end": "2026-11-29T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "a6c01030b3cad25e"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-12-04T21:00:00-05:00",
+      "end": "2026-12-04T21:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "b8af7bbb551c1fb3"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-12-05T10:30:00-05:00",
+      "end": "2026-12-05T11:45:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "fd5f1e2d62b51f28"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-12-06T13:00:00-05:00",
+      "end": "2026-12-06T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "efea919df60d8ab1"
     }
   ]
 }
