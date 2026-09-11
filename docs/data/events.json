@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-09-10T19:08:26.960834+00:00",
+  "generated_at": "2026-09-11T14:30:17.948216+00:00",
   "range": {
-    "start": "2026-09-10",
-    "end": "2026-12-09"
+    "start": "2026-09-11",
+    "end": "2026-12-10"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
-      "ok": true,
+      "ok": false,
       "event_count": 42,
-      "stale": false
+      "stale": true,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='medfordma.myrec.com', port=443): Max retries exceeded with url: /info/calendar/mobile.aspx?FacilityID=14780&AreaID=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='medfordma.myrec.com', port=443) at 0x7fe063e28da0>, 'Connection to medfordma.myrec.com timed out. (connect timeout=30)'))"
     },
     {
       "rink": "Viglirolo Rink",
-      "ok": true,
-      "event_count": 12,
-      "stale": false
+      "ok": false,
+      "event_count": 11,
+      "stale": true,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='belmontma.myrec.com', port=443): Max retries exceeded with url: /info/activities/program_details.aspx?ProgramID=30231 (Caused by ConnectTimeoutError(<HTTPSConnection(host='belmontma.myrec.com', port=443) at 0x7fe063c87fb0>, 'Connection to belmontma.myrec.com timed out. (connect timeout=30)'))"
     },
     {
       "rink": "Stoneham Arena",
@@ -26,53 +28,17 @@
     {
       "rink": "Cronin Rink",
       "ok": true,
-      "event_count": 75,
+      "event_count": 76,
       "stale": false
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 54,
+      "event_count": 52,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-09-10T06:30:00-04:00",
-      "end": "2026-09-10T09:00:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "9db5867ce88dcc8a"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-09-10T13:00:00-04:00",
-      "end": "2026-09-10T13:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "91ae690c11a2e13e"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-10T14:00:00-04:00",
-      "end": "2026-09-10T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "53328fcb31886aa9"
-    },
     {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
@@ -2580,6 +2546,18 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "5877e89bfbc014e6"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-10T12:30:00-05:00",
+      "end": "2026-12-10T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "6f0974c952160152"
     }
   ]
 }
