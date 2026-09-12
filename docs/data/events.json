@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T14:30:17.948216+00:00",
+  "generated_at": "2026-09-12T13:39:20.376624+00:00",
   "range": {
-    "start": "2026-09-11",
-    "end": "2026-12-10"
+    "start": "2026-09-12",
+    "end": "2026-12-11"
   },
   "sources": [
     {
@@ -10,83 +10,35 @@
       "ok": false,
       "event_count": 42,
       "stale": true,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='medfordma.myrec.com', port=443): Max retries exceeded with url: /info/calendar/mobile.aspx?FacilityID=14780&AreaID=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='medfordma.myrec.com', port=443) at 0x7fe063e28da0>, 'Connection to medfordma.myrec.com timed out. (connect timeout=30)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='medfordma.myrec.com', port=443): Max retries exceeded with url: /info/calendar/mobile.aspx?FacilityID=14780&AreaID=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='medfordma.myrec.com', port=443) at 0x7f92a362ad20>, 'Connection to medfordma.myrec.com timed out. (connect timeout=30)'))"
     },
     {
       "rink": "Viglirolo Rink",
       "ok": false,
       "event_count": 11,
       "stale": true,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='belmontma.myrec.com', port=443): Max retries exceeded with url: /info/activities/program_details.aspx?ProgramID=30231 (Caused by ConnectTimeoutError(<HTTPSConnection(host='belmontma.myrec.com', port=443) at 0x7fe063c87fb0>, 'Connection to belmontma.myrec.com timed out. (connect timeout=30)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='belmontma.myrec.com', port=443): Max retries exceeded with url: /info/activities/program_details.aspx?ProgramID=30231 (Caused by ConnectTimeoutError(<HTTPSConnection(host='belmontma.myrec.com', port=443) at 0x7f92a362bb00>, 'Connection to belmontma.myrec.com timed out. (connect timeout=30)'))"
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 29,
+      "event_count": 27,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": true,
-      "event_count": 76,
+      "event_count": 77,
       "stale": false
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 52,
+      "event_count": 51,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-09-11T10:00:00-04:00",
-      "end": "2026-09-11T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8834",
-      "id": "5fb587693348cddf"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-09-11T12:00:00-04:00",
-      "end": "2026-09-11T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8857",
-      "id": "fdc9eddb579a4e92"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-11T14:00:00-04:00",
-      "end": "2026-09-11T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "a1530f3e3fef3141"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-11T21:00:00-04:00",
-      "end": "2026-09-11T21:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
-      "id": "a167989d14eb15f0"
-    },
     {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
@@ -2558,6 +2510,30 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "6f0974c952160152"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-11T12:30:00-05:00",
+      "end": "2026-12-11T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "ffb16cbe98e3282e"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-12-11T21:00:00-05:00",
+      "end": "2026-12-11T21:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
+      "id": "872640106abf5fac"
     }
   ]
 }
