@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-17T15:04:54.671159+00:00",
+  "generated_at": "2026-09-18T14:33:20.330562+00:00",
   "range": {
-    "start": "2026-09-17",
-    "end": "2026-12-16"
+    "start": "2026-09-18",
+    "end": "2026-12-17"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 47,
+      "event_count": 48,
       "stale": false
     },
     {
@@ -20,7 +20,7 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 22,
+      "event_count": 20,
       "stale": false
     },
     {
@@ -32,59 +32,11 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 45,
+      "event_count": 44,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-09-17T10:00:00-04:00",
-      "end": "2026-09-17T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8838",
-      "id": "47b6a3fa1b4bbf89"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-09-17T12:00:00-04:00",
-      "end": "2026-09-17T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8860",
-      "id": "d98aaf70d3b02b50"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-09-17T12:30:00-04:00",
-      "end": "2026-09-17T14:30:00-04:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "b8a77345a5263bde"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-17T14:00:00-04:00",
-      "end": "2026-09-17T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "e210f73d394c5012"
-    },
     {
       "rink": "Stoneham Arena",
       "city": "Stoneham",
@@ -907,11 +859,11 @@
       "address": "90 Guest St, Boston, MA",
       "kind": "public_skate",
       "title": "Public Skating",
-      "start": "2026-10-10T12:30:00-04:00",
-      "end": "2026-10-10T13:50:00-04:00",
+      "start": "2026-10-10T14:00:00-04:00",
+      "end": "2026-10-10T15:20:00-04:00",
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
-      "id": "76fb025b196462ff"
+      "id": "41a426ab9cb63f0d"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -2424,6 +2376,30 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "d0de7b39bb578c35"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-17T10:00:00-05:00",
+      "end": "2026-12-17T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "3f0f053ea7eb9ddd"
+    },
+    {
+      "rink": "Cronin Rink",
+      "city": "Revere",
+      "address": "870 Revere Beach Pkwy, Revere, MA",
+      "kind": "public_skate",
+      "title": "FMC Ice Sports - Public Skating",
+      "start": "2026-12-17T12:30:00-05:00",
+      "end": "2026-12-17T14:30:00-05:00",
+      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
+      "notes": "",
+      "id": "87008acd317df118"
     }
   ]
 }
