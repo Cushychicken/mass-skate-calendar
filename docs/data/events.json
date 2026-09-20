@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-19T13:56:32.409305+00:00",
+  "generated_at": "2026-09-20T14:16:22.475719+00:00",
   "range": {
-    "start": "2026-09-19",
-    "end": "2026-12-18"
+    "start": "2026-09-20",
+    "end": "2026-12-19"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 48,
+      "event_count": 49,
       "stale": false
     },
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 7,
+      "event_count": 6,
       "stale": false
     },
     {
@@ -37,30 +37,6 @@
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-19T13:10:00-04:00",
-      "end": "2026-09-19T13:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
-      "id": "04433daa249eaac9"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "stick_puck",
-      "title": "Stick and Puck",
-      "start": "2026-09-19T15:30:00-04:00",
-      "end": "2026-09-19T17:30:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "4a63401a16b10a3d"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -2352,6 +2328,30 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
       "id": "f4daae9b26040772"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-12-19T12:30:00-05:00",
+      "end": "2026-12-19T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
+      "id": "cea3a0205ede3d6e"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2026-12-19T19:00:00-05:00",
+      "end": "2026-12-19T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "4f8d1e90bb319b6b"
     }
   ]
 }
