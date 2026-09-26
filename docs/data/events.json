@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T15:20:00.595917+00:00",
+  "generated_at": "2026-09-26T14:33:31.132005+00:00",
   "range": {
-    "start": "2026-09-25",
-    "end": "2026-12-24"
+    "start": "2026-09-26",
+    "end": "2026-12-25"
   },
   "sources": [
     {
@@ -14,101 +14,30 @@
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 11,
+      "event_count": 9,
       "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 11,
+      "event_count": 9,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
-      "ok": true,
-      "event_count": 77,
-      "stale": false
+      "ok": false,
+      "event_count": 76,
+      "stale": true,
+      "error": "TypeError: 'NoneType' object is not iterable"
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 98,
+      "event_count": 96,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-09-25T10:00:00-04:00",
-      "end": "2026-09-25T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8844",
-      "id": "f3d56f5f47db877b"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-09-25T12:00:00-04:00",
-      "end": "2026-09-25T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8865",
-      "id": "07b2a42308ac0f5a"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-09-25T12:30:00-04:00",
-      "end": "2026-09-25T14:30:00-04:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "8766dc5b8c018514"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-25T14:00:00-04:00",
-      "end": "2026-09-25T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "677c80dc9d2eaa6c"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-09-25T19:00:00-04:00",
-      "end": "2026-09-25T21:00:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "aca79511896d55fa"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-09-25T21:00:00-04:00",
-      "end": "2026-09-25T21:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Friday Rock n Skate Sept-Dec 2026 -",
-      "id": "1775d7321d0db245"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -485,13 +414,13 @@
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
-      "kind": "stick_puck",
-      "title": "Stick and Puck",
-      "start": "2026-10-03T15:30:00-04:00",
-      "end": "2026-10-03T17:30:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-10-03T15:20:00-04:00",
+      "end": "2026-10-03T17:20:00-04:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "39b2e16dcd9906b2"
+      "id": "a2ead578cd6f5684"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -744,18 +673,6 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "41a426ab9cb63f0d"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "stick_puck",
-      "title": "Stick and Puck",
-      "start": "2026-10-10T15:30:00-04:00",
-      "end": "2026-10-10T17:30:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "d1974586903638a2"
     },
     {
       "rink": "Warrior Ice Arena",
