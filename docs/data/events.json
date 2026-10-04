@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-03T14:45:37.084361+00:00",
+  "generated_at": "2026-10-04T15:25:07.483540+00:00",
   "range": {
-    "start": "2026-10-03",
-    "end": "2027-01-01"
+    "start": "2026-10-04",
+    "end": "2027-01-02"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 57,
+      "event_count": 58,
       "stale": false
     },
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 7,
+      "event_count": 6,
       "stale": false
     },
     {
@@ -33,35 +33,11 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 82,
+      "event_count": 81,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-10-03T15:20:00-04:00",
-      "end": "2026-10-03T17:20:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "a2ead578cd6f5684"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-03T16:30:00-04:00",
-      "end": "2026-10-03T17:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
-      "id": "e185fa48d3165e2f"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -2629,6 +2605,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating 2027 - Weekday Public Skating - Holiday",
       "id": "e24b78911581ec0e"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-01-02T19:00:00-05:00",
+      "end": "2027-01-02T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "bf82247ca76d2608"
     }
   ]
 }
