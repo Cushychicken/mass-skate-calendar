@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T19:19:17.807860+00:00",
+  "generated_at": "2026-10-06T16:51:12.865191+00:00",
   "range": {
-    "start": "2026-10-05",
-    "end": "2027-01-03"
+    "start": "2026-10-06",
+    "end": "2027-01-04"
   },
   "sources": [
     {
@@ -20,7 +20,7 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 34,
+      "event_count": 33,
       "stale": false
     },
     {
@@ -33,47 +33,11 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 80,
+      "event_count": 77,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-05T08:00:00-04:00",
-      "end": "2026-10-05T08:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "cd52e60633fae287"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-10-05T13:00:00-04:00",
-      "end": "2026-10-05T13:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "9eefa76798c1effb"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-05T14:00:00-04:00",
-      "end": "2026-10-05T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "31b0d0402441613b"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -85,18 +49,6 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "f4759488726c47c1"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-10-06T10:00:00-04:00",
-      "end": "2026-10-06T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8964",
-      "id": "06b8c12305feec03"
     },
     {
       "rink": "Cronin Rink",
