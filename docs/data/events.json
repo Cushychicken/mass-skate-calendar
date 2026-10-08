@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T17:27:44.910722+00:00",
+  "generated_at": "2026-10-08T17:26:08.221165+00:00",
   "range": {
-    "start": "2026-10-07",
-    "end": "2027-01-05"
+    "start": "2026-10-08",
+    "end": "2027-01-06"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 60,
+      "event_count": 61,
       "stale": false
     },
     {
@@ -20,13 +20,13 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 32,
+      "event_count": 30,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 67,
+      "event_count": 66,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
@@ -39,30 +39,6 @@
   ],
   "events": [
     {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-10-07T12:00:00-04:00",
-      "end": "2026-10-07T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov\t \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8984",
-      "id": "2aa1c3f679e420a2"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-10-07T12:30:00-04:00",
-      "end": "2026-10-07T14:30:00-04:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "58048b595d208e9b"
-    },
-    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -73,18 +49,6 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "d051a9063e2212f6"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-10-08T10:00:00-04:00",
-      "end": "2026-10-08T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8966",
-      "id": "a8871b896ccd50f2"
     },
     {
       "rink": "Stoneham Arena",
@@ -2893,6 +2857,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "6b4286b7cf72b626"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-01-06T10:00:00-05:00",
+      "end": "2027-01-06T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "220d7309ecb6df4e"
     }
   ]
 }
