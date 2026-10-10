@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T17:02:41.596705+00:00",
+  "generated_at": "2026-10-10T15:54:02.077923+00:00",
   "range": {
-    "start": "2026-10-09",
-    "end": "2027-01-07"
+    "start": "2026-10-10",
+    "end": "2027-01-08"
   },
   "sources": [
     {
@@ -14,19 +14,19 @@
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 5,
+      "event_count": 4,
       "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 28,
+      "event_count": 27,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 65,
+      "event_count": 64,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
@@ -38,42 +38,6 @@
     }
   ],
   "events": [
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-10-09T12:00:00-04:00",
-      "end": "2026-10-09T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov\t \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8986",
-      "id": "9f4b9cd091850815"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-10-09T12:30:00-04:00",
-      "end": "2026-10-09T14:30:00-04:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "6e831ab15d01ea28"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-10-09T19:00:00-04:00",
-      "end": "2026-10-09T21:00:00-04:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
-      "id": "5b44a4f147085282"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -131,7 +95,7 @@
       "start": "2026-10-11T15:30:00-04:00",
       "end": "2026-10-11T17:00:00-04:00",
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
+      "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "7c916538d24201c3"
     },
     {
@@ -503,7 +467,7 @@
       "start": "2026-10-16T19:00:00-04:00",
       "end": "2026-10-16T21:00:00-04:00",
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
+      "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "8f7ce28096e9527f"
     },
     {
@@ -899,7 +863,7 @@
       "start": "2026-10-23T19:00:00-04:00",
       "end": "2026-10-23T21:00:00-04:00",
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
+      "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "de1fa99649958456"
     },
     {
@@ -1319,7 +1283,7 @@
       "start": "2026-10-30T19:00:00-04:00",
       "end": "2026-10-30T21:00:00-04:00",
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$10.00 Res, $10.00 Non-Res",
+      "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "00e5da49ccbac7d1"
     },
     {
