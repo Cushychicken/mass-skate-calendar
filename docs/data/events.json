@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T15:54:02.077923+00:00",
+  "generated_at": "2026-10-11T16:20:58.411436+00:00",
   "range": {
-    "start": "2026-10-10",
-    "end": "2027-01-08"
+    "start": "2026-10-11",
+    "end": "2027-01-09"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 62,
+      "event_count": 63,
       "stale": false
     },
     {
@@ -38,18 +38,6 @@
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-10T14:00:00-04:00",
-      "end": "2026-10-10T15:20:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
-      "id": "41a426ab9cb63f0d"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -2773,6 +2761,30 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "9917e47da1044d24"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2027-01-09T12:30:00-05:00",
+      "end": "2027-01-09T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "",
+      "id": "ea4b5b46a64d2c60"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-01-09T19:00:00-05:00",
+      "end": "2027-01-09T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "7e2dbac1a78bf62a"
     }
   ]
 }
