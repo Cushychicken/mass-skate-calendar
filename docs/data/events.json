@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T19:52:13.303943+00:00",
+  "generated_at": "2026-10-13T17:39:27.789100+00:00",
   "range": {
-    "start": "2026-10-12",
-    "end": "2027-01-10"
+    "start": "2026-10-13",
+    "end": "2027-01-11"
   },
   "sources": [
     {
@@ -20,7 +20,7 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 25,
+      "event_count": 24,
       "stale": false
     },
     {
@@ -33,35 +33,11 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 70,
+      "event_count": 68,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-10-12T12:00:00-04:00",
-      "end": "2026-10-12T12:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey - Holiday",
-      "id": "1fae91e8247688aa"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-12T14:00:00-04:00",
-      "end": "2026-10-12T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating - Holiday",
-      "id": "f1c7162321701eec"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -85,18 +61,6 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "606c626c7a6a59ff"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-10-13T10:00:00-04:00",
-      "end": "2026-10-13T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8969",
-      "id": "eca3db432828ade4"
     },
     {
       "rink": "Cronin Rink",
