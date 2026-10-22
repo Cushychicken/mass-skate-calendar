@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T15:20:49.389205+00:00",
+  "generated_at": "2026-10-22T15:21:27.790276+00:00",
   "range": {
-    "start": "2026-10-21",
-    "end": "2027-01-19"
+    "start": "2026-10-22",
+    "end": "2027-01-20"
   },
   "sources": [
     {
@@ -20,84 +20,24 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 15,
+      "event_count": 13,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 55,
+      "event_count": 54,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 50,
+      "event_count": 49,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "LoConte Rink",
-      "city": "Medford",
-      "address": "97 Locust St, Medford, MA",
-      "kind": "public_skate",
-      "title": "Public Skating - Public Skating",
-      "start": "2026-10-21T10:00:00-04:00",
-      "end": "2026-10-21T13:00:00-04:00",
-      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
-      "notes": "",
-      "id": "a6158939eb9f4d65"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-10-21T10:00:00-04:00",
-      "end": "2026-10-21T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8975",
-      "id": "162d9578246ed6b1"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-10-21T12:00:00-04:00",
-      "end": "2026-10-21T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov\t \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8992",
-      "id": "8330a40213c4d439"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-10-21T12:00:00-04:00",
-      "end": "2026-10-21T12:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "423f6097e187bba5"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-10-21T12:30:00-04:00",
-      "end": "2026-10-21T14:30:00-04:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "00c52027a97e68ab"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -2281,6 +2221,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "3882b7ac55c27e81"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-01-20T10:00:00-05:00",
+      "end": "2027-01-20T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "f43325bbb0c782a7"
     }
   ]
 }
