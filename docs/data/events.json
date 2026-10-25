@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T14:02:33.873803+00:00",
+  "generated_at": "2026-10-25T14:26:19.775359+00:00",
   "range": {
-    "start": "2026-10-24",
-    "end": "2027-01-22"
+    "start": "2026-10-25",
+    "end": "2027-01-23"
   },
   "sources": [
     {
@@ -38,30 +38,6 @@
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-24T18:00:00-04:00",
-      "end": "2026-10-24T18:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
-      "id": "5dccf71406a09526"
-    },
-    {
-      "rink": "LoConte Rink",
-      "city": "Medford",
-      "address": "97 Locust St, Medford, MA",
-      "kind": "public_skate",
-      "title": "Public Skating - Public Skating",
-      "start": "2026-10-24T19:00:00-04:00",
-      "end": "2026-10-24T21:00:00-04:00",
-      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
-      "notes": "",
-      "id": "a7dbadc6dad4325c"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -2113,6 +2089,30 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "2d6ef2ca81c4f1cb"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2027-01-23T16:30:00-05:00",
+      "end": "2027-01-23T17:40:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "",
+      "id": "2d29ffb113c6d54e"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-01-23T19:00:00-05:00",
+      "end": "2027-01-23T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "4bbf80ac51f749e6"
     }
   ]
 }
