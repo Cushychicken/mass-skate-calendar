@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T16:42:39.797209+00:00",
+  "generated_at": "2026-10-29T16:59:23.838368+00:00",
   "range": {
-    "start": "2026-10-28",
-    "end": "2027-01-26"
+    "start": "2026-10-29",
+    "end": "2027-01-27"
   },
   "sources": [
     {
@@ -19,85 +19,26 @@
     },
     {
       "rink": "Stoneham Arena",
-      "ok": true,
-      "event_count": 39,
-      "stale": false
+      "ok": false,
+      "event_count": 37,
+      "stale": true,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.stoneham-ma.gov', port=443): Max retries exceeded with url: /common/modules/iCalendar/iCalendar.aspx?catID=26&feed=calendar (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.stoneham-ma.gov', port=443) at 0x76553cf06150>, 'Connection to www.stoneham-ma.gov timed out. (connect timeout=30)'))"
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 49,
+      "event_count": 48,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 75,
+      "event_count": 87,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "LoConte Rink",
-      "city": "Medford",
-      "address": "97 Locust St, Medford, MA",
-      "kind": "public_skate",
-      "title": "Public Skating - Public Skating",
-      "start": "2026-10-28T10:00:00-04:00",
-      "end": "2026-10-28T13:00:00-04:00",
-      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
-      "notes": "",
-      "id": "8fe764a73af41548"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-10-28T12:00:00-04:00",
-      "end": "2026-10-28T13:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov\t \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \nHELMETS & GLOVES REQUIRED\u2026 FULL EQUIPMENT HIGHLY ADVISED  \n https://www.stoneham-ma.gov/calendar.aspx?EID=8996",
-      "id": "950e787164c8ebce"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-10-28T12:00:00-04:00",
-      "end": "2026-10-28T12:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "11fe0fe61eb86d07"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-10-28T12:30:00-04:00",
-      "end": "2026-10-28T14:30:00-04:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "d11d7446668d4a31"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-10-28T14:00:00-04:00",
-      "end": "2026-10-28T14:50:00-04:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "7fb5f32915d1ad09"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -121,18 +62,6 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "62b810a730f7809a"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-10-29T10:00:00-04:00",
-      "end": "2026-10-29T11:45:00-04:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=8981",
-      "id": "8f146666903296f1"
     },
     {
       "rink": "Stoneham Arena",
@@ -447,6 +376,18 @@
       "id": "2341c35ab772ad74"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-03T15:00:00-05:00",
+      "end": "2026-11-03T15:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "4304b21d6c84857e"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -517,6 +458,18 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "1741ae6a7f02ddb7"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-05T08:10:00-05:00",
+      "end": "2026-11-05T09:00:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "62b18260c6840ec9"
     },
     {
       "rink": "LoConte Rink",
@@ -649,6 +602,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "7bd9300a7008c153"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-06T14:00:00-05:00",
+      "end": "2026-11-06T14:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "9a91572a1f020881"
     },
     {
       "rink": "Viglirolo Rink",
@@ -891,6 +856,18 @@
       "id": "d70b88ab691a20c6"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-10T15:00:00-05:00",
+      "end": "2026-11-10T15:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "9dce936fea1bdc69"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -987,6 +964,18 @@
       "id": "e7b6feb0755b6779"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-12T08:10:00-05:00",
+      "end": "2026-11-12T09:00:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "7a505379f731fb3e"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1045,6 +1034,18 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "eb8dfdbed7103677"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-12T15:00:00-05:00",
+      "end": "2026-11-12T15:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "33e451e1d84e16d0"
     },
     {
       "rink": "Viglirolo Rink",
@@ -1110,13 +1111,13 @@
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
+      "kind": "public_skate",
+      "title": "Public Skating",
       "start": "2026-11-13T13:00:00-05:00",
       "end": "2026-11-13T13:50:00-05:00",
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "d5ce199ab87ba7e3"
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "9b23ca2987c28c1a"
     },
     {
       "rink": "Viglirolo Rink",
@@ -1299,6 +1300,18 @@
       "id": "5c60a7e3baf79166"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-17T08:10:00-05:00",
+      "end": "2026-11-17T09:00:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "f10481b6573834c8"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1345,6 +1358,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "ef542be1a2b4be06"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-17T15:00:00-05:00",
+      "end": "2026-11-17T15:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "fc7f0aefbe1f2f14"
     },
     {
       "rink": "Viglirolo Rink",
@@ -1431,6 +1456,30 @@
       "id": "ed0b42dbf0a2dd6d"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-18T14:00:00-05:00",
+      "end": "2026-11-18T14:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "be2dbef7fd08d131"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-19T08:10:00-05:00",
+      "end": "2026-11-19T09:00:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "b690755f37239d09"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1477,6 +1526,18 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "1bfddbe72c09f622"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-19T17:00:00-05:00",
+      "end": "2026-11-19T17:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "586334840d0aad25"
     },
     {
       "rink": "Viglirolo Rink",
@@ -1707,6 +1768,18 @@
       "id": "8e8361ae84224342"
     },
     {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-24T08:00:00-05:00",
+      "end": "2026-11-24T08:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "8a550c57c434b612"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1753,6 +1826,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "b462b0369dfa2370"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-24T14:00:00-05:00",
+      "end": "2026-11-24T14:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "de4564b505d07a17"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1849,6 +1934,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "ccaa3c8f2ab41008"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2026-11-25T14:00:00-05:00",
+      "end": "2026-11-25T14:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
+      "id": "75ec587b6bf94949"
     },
     {
       "rink": "Viglirolo Rink",
@@ -3085,6 +3182,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "ef52341e223b9240"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-01-27T10:00:00-05:00",
+      "end": "2027-01-27T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "d228fb5f89f8954c"
     }
   ]
 }
