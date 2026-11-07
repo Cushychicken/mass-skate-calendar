@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T17:33:15.258933+00:00",
+  "generated_at": "2026-11-07T16:30:32.665806+00:00",
   "range": {
-    "start": "2026-11-06",
-    "end": "2027-02-04"
+    "start": "2026-11-07",
+    "end": "2027-02-05"
   },
   "sources": [
     {
@@ -14,114 +14,30 @@
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 22,
+      "event_count": 20,
       "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 26,
+      "event_count": 25,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 41,
+      "event_count": 40,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 74,
+      "event_count": 71,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "stick_puck",
-      "title": "Stick and Puck",
-      "start": "2026-11-06T07:40:00-05:00",
-      "end": "2026-11-06T09:00:00-05:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
-      "notes": "$7.00 Res, $10.00 Non-Res",
-      "id": "6d938d9a67c71b41"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-11-06T08:00:00-05:00",
-      "end": "2026-11-06T08:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "181a175951b63a80"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-11-06T12:00:00-05:00",
-      "end": "2026-11-06T13:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9101",
-      "id": "e96257d458b34ee5"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-11-06T12:30:00-05:00",
-      "end": "2026-11-06T14:30:00-05:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "8a1c6649eb4bb5c0"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-11-06T13:00:00-05:00",
-      "end": "2026-11-06T13:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "7bd9300a7008c153"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-06T14:00:00-05:00",
-      "end": "2026-11-06T14:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "9a91572a1f020881"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-11-06T19:00:00-05:00",
-      "end": "2026-11-06T21:00:00-05:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$7.00 Res, $10.00 Non-Res",
-      "id": "99ae2cb1d3eee4df"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
