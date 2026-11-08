@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T16:30:32.665806+00:00",
+  "generated_at": "2026-11-08T16:43:21.291718+00:00",
   "range": {
-    "start": "2026-11-07",
-    "end": "2027-02-05"
+    "start": "2026-11-08",
+    "end": "2027-02-06"
   },
   "sources": [
     {
@@ -33,35 +33,11 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 71,
+      "event_count": 72,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-07T17:00:00-05:00",
-      "end": "2026-11-07T17:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
-      "id": "3bfbde9f0b5d81b7"
-    },
-    {
-      "rink": "LoConte Rink",
-      "city": "Medford",
-      "address": "97 Locust St, Medford, MA",
-      "kind": "public_skate",
-      "title": "Public Skating - Public Skating",
-      "start": "2026-11-07T19:00:00-05:00",
-      "end": "2026-11-07T21:00:00-05:00",
-      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
-      "notes": "",
-      "id": "522e76fb7c8ce178"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -260,11 +236,11 @@
       "address": "90 Guest St, Boston, MA",
       "kind": "stick_puck",
       "title": "Public Hockey",
-      "start": "2026-11-10T13:00:00-05:00",
-      "end": "2026-11-10T13:50:00-05:00",
+      "start": "2026-11-10T12:50:00-05:00",
+      "end": "2026-11-10T13:45:00-05:00",
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "d70b88ab691a20c6"
+      "id": "88b94d71c2fd8e93"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1021,6 +997,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekend Public Skating",
       "id": "4bf067a3ea70b05b"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "stick_puck",
+      "title": "Public Hockey",
+      "start": "2026-11-21T14:00:00-05:00",
+      "end": "2026-11-21T14:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
+      "id": "37097708faf8d966"
     },
     {
       "rink": "LoConte Rink",
@@ -2689,6 +2677,30 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "e9e823c4ff3dd411"
+    },
+    {
+      "rink": "Warrior Ice Arena",
+      "city": "Boston",
+      "address": "90 Guest St, Boston, MA",
+      "kind": "public_skate",
+      "title": "Public Skating",
+      "start": "2027-02-06T12:40:00-05:00",
+      "end": "2027-02-06T13:50:00-05:00",
+      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
+      "notes": "",
+      "id": "ec21f12ca37a1aa9"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-02-06T19:00:00-05:00",
+      "end": "2027-02-06T21:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "1180a67a620dc146"
     }
   ]
 }
