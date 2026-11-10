@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T20:50:05.374186+00:00",
+  "generated_at": "2026-11-10T17:56:48.116969+00:00",
   "range": {
-    "start": "2026-11-09",
-    "end": "2027-02-07"
+    "start": "2026-11-10",
+    "end": "2027-02-08"
   },
   "sources": [
     {
@@ -14,13 +14,13 @@
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 19,
+      "event_count": 18,
       "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 23,
+      "event_count": 22,
       "stale": false
     },
     {
@@ -33,59 +33,11 @@
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 74,
+      "event_count": 71,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-09T08:00:00-05:00",
-      "end": "2026-11-09T08:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "c088bee48ae7a3e0"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-11-09T11:00:00-05:00",
-      "end": "2026-11-09T13:30:00-05:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$7.00 Res, $10.00 Non-Res",
-      "id": "4ec998b64e8faf38"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-11-09T13:00:00-05:00",
-      "end": "2026-11-09T13:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "45d783d486c28ad7"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-09T14:00:00-05:00",
-      "end": "2026-11-09T14:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "27333bddcd204b6d"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -109,18 +61,6 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "7aeb392d2f191833"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-11-10T10:00:00-05:00",
-      "end": "2026-11-10T11:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": " https://www.stoneham-ma.gov/calendar.aspx?EID=9086",
-      "id": "6e7e2a65fd739ef0"
     },
     {
       "rink": "Cronin Rink",
