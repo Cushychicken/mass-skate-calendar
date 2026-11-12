@@ -1,127 +1,43 @@
 {
-  "generated_at": "2026-11-11T17:55:59.714746+00:00",
+  "generated_at": "2026-11-12T18:24:16.105659+00:00",
   "range": {
-    "start": "2026-11-11",
-    "end": "2027-02-09"
+    "start": "2026-11-12",
+    "end": "2027-02-10"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 65,
+      "event_count": 66,
       "stale": false
     },
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 18,
+      "event_count": 16,
       "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 21,
+      "event_count": 19,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 37,
+      "event_count": 36,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 68,
+      "event_count": 66,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "stick_puck",
-      "title": "Stick and Puck",
-      "start": "2026-11-11T09:00:00-05:00",
-      "end": "2026-11-11T10:50:00-05:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
-      "notes": "$7.00 Res, $10.00 Non-Res",
-      "id": "27cba5f48521921e"
-    },
-    {
-      "rink": "LoConte Rink",
-      "city": "Medford",
-      "address": "97 Locust St, Medford, MA",
-      "kind": "public_skate",
-      "title": "Public Skating - Public Skating",
-      "start": "2026-11-11T10:00:00-05:00",
-      "end": "2026-11-11T13:00:00-05:00",
-      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
-      "notes": "",
-      "id": "61b8aef14307c1e1"
-    },
-    {
-      "rink": "Viglirolo Rink",
-      "city": "Belmont",
-      "address": "10 Concord Ave, Belmont, MA",
-      "kind": "public_skate",
-      "title": "Public Skate",
-      "start": "2026-11-11T11:00:00-05:00",
-      "end": "2026-11-11T13:30:00-05:00",
-      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
-      "notes": "$7.00 Res, $10.00 Non-Res",
-      "id": "ad4cac31107bd04c"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-11-11T12:00:00-05:00",
-      "end": "2026-11-11T13:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9103",
-      "id": "af00e6fc72a525c6"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-11-11T12:30:00-05:00",
-      "end": "2026-11-11T14:30:00-05:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "fed161aa0e9549ac"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-11T13:00:00-05:00",
-      "end": "2026-11-11T13:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating - Holiday",
-      "id": "adb7fd6d57035d54"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-11-11T14:00:00-05:00",
-      "end": "2026-11-11T14:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey - Holiday",
-      "id": "e7b6feb0755b6779"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -145,18 +61,6 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "4533fdb44d70cf31"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-11-12T10:00:00-05:00",
-      "end": "2026-11-12T11:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": " https://www.stoneham-ma.gov/calendar.aspx?EID=9088",
-      "id": "1659e4eb8c5aadd2"
     },
     {
       "rink": "Stoneham Arena",
@@ -193,6 +97,18 @@
       "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
       "notes": "",
       "id": "eb8dfdbed7103677"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "stick_puck",
+      "title": "High School Stick and Puck",
+      "start": "2026-11-12T15:00:00-05:00",
+      "end": "2026-11-12T17:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "51eee7efbdfda45c"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -2545,6 +2461,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "78d8fa4011777066"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-02-10T10:00:00-05:00",
+      "end": "2027-02-10T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "985bdecf5311d813"
     }
   ]
 }
