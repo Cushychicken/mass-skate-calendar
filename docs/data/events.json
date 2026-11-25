@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T20:42:13.756262+00:00",
+  "generated_at": "2026-11-25T19:58:31.753311+00:00",
   "range": {
-    "start": "2026-11-24",
-    "end": "2027-02-22"
+    "start": "2026-11-25",
+    "end": "2027-02-23"
   },
   "sources": [
     {
@@ -14,90 +14,30 @@
     {
       "rink": "Viglirolo Rink",
       "ok": true,
-      "event_count": 7,
+      "event_count": 34,
       "stale": false
     },
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 4,
+      "event_count": 2,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 25,
+      "event_count": 24,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
     {
       "rink": "Warrior Ice Arena",
       "ok": true,
-      "event_count": 96,
+      "event_count": 92,
       "stale": false
     }
   ],
   "events": [
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-11-24T07:00:00-05:00",
-      "end": "2026-11-24T07:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "8e8361ae84224342"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-24T08:00:00-05:00",
-      "end": "2026-11-24T08:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "8a550c57c434b612"
-    },
-    {
-      "rink": "LoConte Rink",
-      "city": "Medford",
-      "address": "97 Locust St, Medford, MA",
-      "kind": "public_skate",
-      "title": "Public Skating - Public Skating",
-      "start": "2026-11-24T10:00:00-05:00",
-      "end": "2026-11-24T13:00:00-05:00",
-      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
-      "notes": "",
-      "id": "b221643d10afe652"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "stick_puck",
-      "title": "Public Hockey",
-      "start": "2026-11-24T13:00:00-05:00",
-      "end": "2026-11-24T13:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "b462b0369dfa2370"
-    },
-    {
-      "rink": "Warrior Ice Arena",
-      "city": "Boston",
-      "address": "90 Guest St, Boston, MA",
-      "kind": "public_skate",
-      "title": "Public Skating",
-      "start": "2026-11-24T14:00:00-05:00",
-      "end": "2026-11-24T14:50:00-05:00",
-      "source_url": "https://warrior.finnlyconnect.com/schedule/20",
-      "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "de4564b505d07a17"
-    },
     {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
@@ -135,18 +75,6 @@
       "id": "507c8641e872f4a0"
     },
     {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-11-25T10:00:00-05:00",
-      "end": "2026-11-25T11:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": " https://www.stoneham-ma.gov/calendar.aspx?EID=9097",
-      "id": "a8580d8fb3f482cf"
-    },
-    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -157,30 +85,6 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "8d8e5a449a9d0fe3"
-    },
-    {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-11-25T12:00:00-05:00",
-      "end": "2026-11-25T13:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9111",
-      "id": "fa146449496c4bf7"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-11-25T12:30:00-05:00",
-      "end": "2026-11-25T14:30:00-05:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "82ad070321ea5a59"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -519,6 +423,18 @@
       "id": "c0a3f47ff7423983"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-02T09:00:00-05:00",
+      "end": "2026-12-02T10:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "d08a7f7e0d7590f5"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -529,6 +445,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "9cf47a92f2edf4dc"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-02T11:00:00-05:00",
+      "end": "2026-12-02T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "63f9c82cbef26ccc"
     },
     {
       "rink": "Cronin Rink",
@@ -651,6 +579,18 @@
       "id": "33a7ef977721911e"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-04T20:00:00-05:00",
+      "end": "2026-12-04T21:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "618da94917deb571"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -723,6 +663,18 @@
       "id": "5a7f47a03dbffa71"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-06T14:00:00-05:00",
+      "end": "2026-12-06T15:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "262641030af5fd48"
+    },
+    {
       "rink": "Cronin Rink",
       "city": "Revere",
       "address": "870 Revere Beach Pkwy, Revere, MA",
@@ -735,6 +687,18 @@
       "id": "e819ad15bc1bae70"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-06T16:10:00-05:00",
+      "end": "2026-12-06T17:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "59a8b3192a81f723"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -745,6 +709,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "6c40101040cc5378"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-07T11:00:00-05:00",
+      "end": "2026-12-07T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "16b1b868d5302c7f"
     },
     {
       "rink": "Cronin Rink",
@@ -843,6 +819,18 @@
       "id": "1c521b02e601bd67"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-09T09:00:00-05:00",
+      "end": "2026-12-09T10:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "a137256bb6a5a701"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -855,16 +843,28 @@
       "id": "b37d956168d5cefe"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-09T11:00:00-05:00",
+      "end": "2026-12-09T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "f548d729ec1587ac"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
       "kind": "stick_puck",
       "title": "Public Hockey",
-      "start": "2026-12-09T11:00:00-05:00",
-      "end": "2026-12-09T11:50:00-05:00",
+      "start": "2026-12-09T11:30:00-05:00",
+      "end": "2026-12-09T12:20:00-05:00",
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
-      "id": "0aef86ccdf0221f1"
+      "id": "4f61105e4fbd9670"
     },
     {
       "rink": "Cronin Rink",
@@ -884,11 +884,11 @@
       "address": "90 Guest St, Boston, MA",
       "kind": "public_skate",
       "title": "Public Skating",
-      "start": "2026-12-09T13:00:00-05:00",
-      "end": "2026-12-09T13:50:00-05:00",
+      "start": "2026-12-09T13:30:00-05:00",
+      "end": "2026-12-09T14:20:00-05:00",
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
-      "id": "f01a6f9eacfd7378"
+      "id": "5fc3da38ecf3fd4a"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -939,6 +939,18 @@
       "id": "6f0974c952160152"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-11T07:40:00-05:00",
+      "end": "2026-12-11T09:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "8e2fc491e956f471"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -973,6 +985,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "f5b8a0a798cb81d5"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-11T20:00:00-05:00",
+      "end": "2026-12-11T21:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "25d00e4c40b017a9"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1047,6 +1071,18 @@
       "id": "d59c9d356ef72bdc"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-13T14:00:00-05:00",
+      "end": "2026-12-13T15:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "fc3ced7bb19423f0"
+    },
+    {
       "rink": "Cronin Rink",
       "city": "Revere",
       "address": "870 Revere Beach Pkwy, Revere, MA",
@@ -1059,6 +1095,18 @@
       "id": "126d4531dc1b62c0"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-13T16:10:00-05:00",
+      "end": "2026-12-13T17:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "81ee638be717c4b0"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1069,6 +1117,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "f6339e872d41e372"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-14T11:00:00-05:00",
+      "end": "2026-12-14T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "1f93182c4b5e72af"
     },
     {
       "rink": "Cronin Rink",
@@ -1167,6 +1227,18 @@
       "id": "fac4d0b498a053c6"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-16T09:00:00-05:00",
+      "end": "2026-12-16T10:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "772d8e5f38ecaed2"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1177,6 +1249,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "af6812c49be49270"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-16T11:00:00-05:00",
+      "end": "2026-12-16T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "f863da0a361e2bbb"
     },
     {
       "rink": "Cronin Rink",
@@ -1275,6 +1359,18 @@
       "id": "df04ebc3a0d8d036"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-18T07:40:00-05:00",
+      "end": "2026-12-18T09:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "bd821ec58d20e46b"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1309,6 +1405,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "1c3768d97884dac1"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-18T20:00:00-05:00",
+      "end": "2026-12-18T21:00:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "84911ef25c87258b"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1383,6 +1491,18 @@
       "id": "042d048189524ab8"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-20T14:00:00-05:00",
+      "end": "2026-12-20T15:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "db8b37336ac32601"
+    },
+    {
       "rink": "Cronin Rink",
       "city": "Revere",
       "address": "870 Revere Beach Pkwy, Revere, MA",
@@ -1405,6 +1525,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Skating Sept-Dec 2026 - Weekday Public Skating",
       "id": "564fb52cebdf85ea"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-21T11:00:00-05:00",
+      "end": "2026-12-21T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "3a7161b36c69300c"
     },
     {
       "rink": "Cronin Rink",
@@ -1515,6 +1647,18 @@
       "id": "cda17c0960221920"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-23T09:00:00-05:00",
+      "end": "2026-12-23T10:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "1f45c02e9aaba68e"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1525,6 +1669,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "2af9b92045abc1a2"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-23T11:00:00-05:00",
+      "end": "2026-12-23T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "04440a875783e042"
     },
     {
       "rink": "Cronin Rink",
@@ -1587,6 +1743,18 @@
       "id": "9ea1263136eb24dc"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-26T09:00:00-05:00",
+      "end": "2026-12-26T10:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "5967348d16b6189b"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1647,6 +1815,18 @@
       "id": "bb31a5016be0b914"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-27T14:00:00-05:00",
+      "end": "2026-12-27T15:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "049b5c1031c07f81"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1657,6 +1837,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "d17e46eb8fa35e51"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-28T11:00:00-05:00",
+      "end": "2026-12-28T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "8db3ec57f0067809"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1681,6 +1873,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "61aa679575579898"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-29T11:00:00-05:00",
+      "end": "2026-12-29T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "2fe81b9bf544117c"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1719,6 +1923,18 @@
       "id": "b76a55640958b6be"
     },
     {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "stick_puck",
+      "title": "Stick and Puck",
+      "start": "2026-12-30T09:00:00-05:00",
+      "end": "2026-12-30T10:50:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "74162fba4d8ae832"
+    },
+    {
       "rink": "LoConte Rink",
       "city": "Medford",
       "address": "97 Locust St, Medford, MA",
@@ -1729,6 +1945,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "ccd7ad5ab860f7ab"
+    },
+    {
+      "rink": "Viglirolo Rink",
+      "city": "Belmont",
+      "address": "10 Concord Ave, Belmont, MA",
+      "kind": "public_skate",
+      "title": "Public Skate",
+      "start": "2026-12-30T11:00:00-05:00",
+      "end": "2026-12-30T13:20:00-05:00",
+      "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
+      "notes": "$7.00 Res, $10.00 Non-Res",
+      "id": "6a4b7ed532af1279"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -2401,6 +2629,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "0a2623b0908c9539"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-02-23T10:00:00-05:00",
+      "end": "2027-02-23T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "ab399c1e8e0b7d31"
     }
   ]
 }
