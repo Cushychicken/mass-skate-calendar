@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-26T19:42:32.250541+00:00",
+  "generated_at": "2026-11-27T19:31:18.421436+00:00",
   "range": {
-    "start": "2026-11-26",
-    "end": "2027-02-24"
+    "start": "2026-11-27",
+    "end": "2027-02-25"
   },
   "sources": [
     {
       "rink": "LoConte Rink",
       "ok": true,
-      "event_count": 65,
+      "event_count": 66,
       "stale": false
     },
     {
@@ -20,13 +20,13 @@
     {
       "rink": "Stoneham Arena",
       "ok": true,
-      "event_count": 2,
+      "event_count": 31,
       "stale": false
     },
     {
       "rink": "Cronin Rink",
       "ok": false,
-      "event_count": 24,
+      "event_count": 23,
       "stale": true,
       "error": "TypeError: 'NoneType' object is not iterable"
     },
@@ -51,18 +51,6 @@
       "id": "a80ce42187dc82c7"
     },
     {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "public_skate",
-      "title": "PUBLIC SKATING",
-      "start": "2026-11-27T10:00:00-05:00",
-      "end": "2026-11-27T11:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9152",
-      "id": "b72ed123f3513e87"
-    },
-    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -75,18 +63,6 @@
       "id": "d59a833e9d5dec1c"
     },
     {
-      "rink": "Stoneham Arena",
-      "city": "Stoneham",
-      "address": "101 Montvale Ave, Stoneham, MA",
-      "kind": "stick_puck",
-      "title": "ADULT STICK PRACTICE 18+*YOU MUST PRE-REGISTER SPACE LIMITED*",
-      "start": "2026-11-27T12:00:00-05:00",
-      "end": "2026-11-27T13:45:00-05:00",
-      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
-      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov\t https://www.stoneham-ma.gov/calendar.aspx?EID=9153",
-      "id": "e2a22fb9f1df9a5a"
-    },
-    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -97,18 +73,6 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29877",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "8f6f44054e01a900"
-    },
-    {
-      "rink": "Cronin Rink",
-      "city": "Revere",
-      "address": "870 Revere Beach Pkwy, Revere, MA",
-      "kind": "public_skate",
-      "title": "FMC Ice Sports - Public Skating",
-      "start": "2026-11-27T12:30:00-05:00",
-      "end": "2026-11-27T14:30:00-05:00",
-      "source_url": "https://fmc.myhalix.io/pages/publicskatingcalendars.revere",
-      "notes": "",
-      "id": "89507c8e9bc67ae6"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -255,6 +219,18 @@
       "id": "f4ed5d4e32396805"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-11-30T10:00:00-05:00",
+      "end": "2026-11-30T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9190",
+      "id": "116e49cea4e48e70"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -265,6 +241,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "8fa4c7c848b9962d"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-11-30T12:00:00-05:00",
+      "end": "2026-11-30T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9208",
+      "id": "ef3868ac65dce4ab"
     },
     {
       "rink": "Cronin Rink",
@@ -313,6 +301,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "b0716827e5215be1"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-01T10:00:00-05:00",
+      "end": "2026-12-01T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9191",
+      "id": "5b46640d53fc6f30"
     },
     {
       "rink": "Cronin Rink",
@@ -375,6 +375,18 @@
       "id": "9cf47a92f2edf4dc"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-02T10:00:00-05:00",
+      "end": "2026-12-02T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9192",
+      "id": "707fca265767d292"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -385,6 +397,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "63f9c82cbef26ccc"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-02T12:00:00-05:00",
+      "end": "2026-12-02T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9209",
+      "id": "8fbfd77ba98b65ce"
     },
     {
       "rink": "Cronin Rink",
@@ -447,6 +471,30 @@
       "id": "5f141a572b551688"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-03T10:00:00-05:00",
+      "end": "2026-12-03T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9193",
+      "id": "c0ebf9ac255a4b7d"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-03T12:00:00-05:00",
+      "end": "2026-12-03T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9210",
+      "id": "a91cf2d49577502c"
+    },
+    {
       "rink": "Cronin Rink",
       "city": "Revere",
       "address": "870 Revere Beach Pkwy, Revere, MA",
@@ -481,6 +529,30 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "17306f7ceb49c5d8"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-04T10:00:00-05:00",
+      "end": "2026-12-04T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9194",
+      "id": "fc915aa1463b4f9d"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-04T12:00:00-05:00",
+      "end": "2026-12-04T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9211",
+      "id": "bd793558e0943088"
     },
     {
       "rink": "Cronin Rink",
@@ -639,6 +711,18 @@
       "id": "6c40101040cc5378"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-07T10:00:00-05:00",
+      "end": "2026-12-07T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9195",
+      "id": "0cd0c9c250d0a3f2"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -649,6 +733,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "16b1b868d5302c7f"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-07T12:00:00-05:00",
+      "end": "2026-12-07T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9212",
+      "id": "c1d6e1988cbab1c5"
     },
     {
       "rink": "Cronin Rink",
@@ -711,6 +807,18 @@
       "id": "c34c7c88b400add5"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-08T10:00:00-05:00",
+      "end": "2026-12-08T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9196",
+      "id": "dbe1f7c08a1f59f7"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -771,6 +879,18 @@
       "id": "b37d956168d5cefe"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-09T10:00:00-05:00",
+      "end": "2026-12-09T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9197",
+      "id": "938277d9f4bba38d"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -793,6 +913,18 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "4f61105e4fbd9670"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-09T12:00:00-05:00",
+      "end": "2026-12-09T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9213",
+      "id": "1f3fb2eb5d532b38"
     },
     {
       "rink": "Cronin Rink",
@@ -843,6 +975,30 @@
       "id": "618c82e7a0e48c36"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-10T10:00:00-05:00",
+      "end": "2026-12-10T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9198",
+      "id": "6eb3fd1cb1381611"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-10T12:00:00-05:00",
+      "end": "2026-12-10T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9214",
+      "id": "5111f06d3eea8107"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -889,6 +1045,30 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "b9ca1bf9e20aae2d"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-11T10:00:00-05:00",
+      "end": "2026-12-11T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9199",
+      "id": "009654e9d7aa6b8e"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-11T12:00:00-05:00",
+      "end": "2026-12-11T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9215",
+      "id": "53d3b0de73155616"
     },
     {
       "rink": "Cronin Rink",
@@ -1047,6 +1227,18 @@
       "id": "f6339e872d41e372"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-14T10:00:00-05:00",
+      "end": "2026-12-14T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9200",
+      "id": "d81c1f6c2e70afcf"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -1057,6 +1249,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "1f93182c4b5e72af"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-14T12:00:00-05:00",
+      "end": "2026-12-14T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9216",
+      "id": "3fddb11dda2db695"
     },
     {
       "rink": "Cronin Rink",
@@ -1119,6 +1323,18 @@
       "id": "432de6279d2eb66a"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-15T10:00:00-05:00",
+      "end": "2026-12-15T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9201",
+      "id": "14c7e8554da19176"
+    },
+    {
       "rink": "Cronin Rink",
       "city": "Revere",
       "address": "870 Revere Beach Pkwy, Revere, MA",
@@ -1179,6 +1395,18 @@
       "id": "af6812c49be49270"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-16T10:00:00-05:00",
+      "end": "2026-12-16T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9202",
+      "id": "bed482ad08cf608f"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -1189,6 +1417,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "f863da0a361e2bbb"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-16T12:00:00-05:00",
+      "end": "2026-12-16T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9217",
+      "id": "bc398c27fcadc2ec"
     },
     {
       "rink": "Cronin Rink",
@@ -1251,6 +1491,30 @@
       "id": "3f0f053ea7eb9ddd"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-17T10:00:00-05:00",
+      "end": "2026-12-17T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9203",
+      "id": "6ff393f0b473b013"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-17T12:00:00-05:00",
+      "end": "2026-12-17T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9218",
+      "id": "55a7985d607179d0"
+    },
+    {
       "rink": "Warrior Ice Arena",
       "city": "Boston",
       "address": "90 Guest St, Boston, MA",
@@ -1309,6 +1573,30 @@
       "source_url": "https://warrior.finnlyconnect.com/schedule/20",
       "notes": "Activity: Public Hockey Sept-Dec 2026 Weekday Public Hockey",
       "id": "c1381e70eea9fef5"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-18T10:00:00-05:00",
+      "end": "2026-12-18T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9204",
+      "id": "e256fdc3133f2207"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-18T12:00:00-05:00",
+      "end": "2026-12-18T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9219",
+      "id": "caf6edbe66a55b09"
     },
     {
       "rink": "Cronin Rink",
@@ -1455,6 +1743,18 @@
       "id": "564fb52cebdf85ea"
     },
     {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-21T10:00:00-05:00",
+      "end": "2026-12-21T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9205",
+      "id": "0cc0cb1477212978"
+    },
+    {
       "rink": "Viglirolo Rink",
       "city": "Belmont",
       "address": "10 Concord Ave, Belmont, MA",
@@ -1465,6 +1765,18 @@
       "source_url": "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30231",
       "notes": "$7.00 Res, $10.00 Non-Res",
       "id": "3a7161b36c69300c"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "stick_puck",
+      "title": "ADULT STICK PRACTICE *YOU MUST PRE-REGISTER SPACE LIMITED*",
+      "start": "2026-12-21T12:00:00-05:00",
+      "end": "2026-12-21T13:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "You must Pre-Register via email to: arenainfo@stoneham-ma.gov https://www.stoneham-ma.gov/calendar.aspx?EID=9220",
+      "id": "219974fbf35367e4"
     },
     {
       "rink": "Cronin Rink",
@@ -1525,6 +1837,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "58ac8bfbc576ef10"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-22T10:00:00-05:00",
+      "end": "2026-12-22T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9206",
+      "id": "ea081c3060b265b6"
     },
     {
       "rink": "Warrior Ice Arena",
@@ -1597,6 +1921,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "2af9b92045abc1a2"
+    },
+    {
+      "rink": "Stoneham Arena",
+      "city": "Stoneham",
+      "address": "101 Montvale Ave, Stoneham, MA",
+      "kind": "public_skate",
+      "title": "PUBLIC SKATING",
+      "start": "2026-12-23T10:00:00-05:00",
+      "end": "2026-12-23T11:45:00-05:00",
+      "source_url": "https://www.stoneham-ma.gov/calendar.aspx?CID=26",
+      "notes": "*ARENA DOES NOT SUPPLY MILK CRATES, YOU ARE WELCOME TO SUPPLY YOUR OWN* \n*HELMETS ARE MANDATORY FOR CHILDREN UNDER 10* \n**CHILDREN UNDER 14 MUST HAVE ADULT SUPERVISION PRESENT**  \n*** ARENA DOES NOT HAVE SKATE RENTALS OR SKATE SHARPENING*** \n*** ARENA IS SKATE AT OWN RISK, NOT RESPONSIBLE FOR NEGLIGENT SKATERS OR PATRONS*** \n https://www.stoneham-ma.gov/calendar.aspx?EID=9207",
+      "id": "15cfcf66649cd883"
     },
     {
       "rink": "Viglirolo Rink",
@@ -2569,6 +2905,18 @@
       "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
       "notes": "",
       "id": "78abd08881a3a2b7"
+    },
+    {
+      "rink": "LoConte Rink",
+      "city": "Medford",
+      "address": "97 Locust St, Medford, MA",
+      "kind": "public_skate",
+      "title": "Public Skating - Public Skating",
+      "start": "2027-02-25T10:00:00-05:00",
+      "end": "2027-02-25T13:00:00-05:00",
+      "source_url": "https://medfordma.myrec.com/info/calendar/default.aspx?FacilityID=14780",
+      "notes": "",
+      "id": "f1d85ed9088e1cfa"
     }
   ]
 }
